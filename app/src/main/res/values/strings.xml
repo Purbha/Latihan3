@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Latihan3</string>
+    <string name="deskripsi">
+        A toast provides simple feedback about an operation in a small popup.
+        It only fills the amount of space required for the message and the current activity
+        remains visible and interactive. Toasts automatically disappear after a timeout.
+    </string>
+</resources>
