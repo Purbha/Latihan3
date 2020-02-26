@@ -5,4 +5,7 @@
         It only fills the amount of space required for the message and the current activity
         remains visible and interactive. Toasts automatically disappear after a timeout.
     </string>
+    <string name="textView_Main_Judul">Toasts Overview</string>
+    <string name="imageView_Main_Banner">Banner Image</string>
+    <string name="button_Main_Submit">Submit</string>
 </resources>
