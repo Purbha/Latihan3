@@ -1,7 +1,7 @@
 package com.ims_hr.latihan3;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void Inisial() {
-        B_Submit = (Button) findViewById(R.id.button_Main_Submit);
+        B_Submit = findViewById(R.id.button_Main_Submit);
     }
 
     private void Listen_B_Submit() {
@@ -30,6 +30,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 
 }
