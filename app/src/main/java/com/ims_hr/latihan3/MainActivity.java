@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
         B_Submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Ini adalah Pesan.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Ini adalah Pesan.",
+                        Toast.LENGTH_SHORT).show();
             }
         });
     }
