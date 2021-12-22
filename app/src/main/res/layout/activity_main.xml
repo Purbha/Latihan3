@@ -23,12 +23,13 @@
         android:id="@+id/imageView_Main_Banner"
         android:layout_width="0dp"
         android:layout_height="200dp"
-        android:scaleType="fitXY"
         android:contentDescription="@string/imageView_Main_Banner"
+        android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/banner" />
+        app:srcCompat="@drawable/banner"
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/textView_Main_Deskripsi"
